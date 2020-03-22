@@ -1,0 +1,51 @@
+.menu {
+    @include propriete-menu;
+}
+
+.nav {
+    @include propriete-nav;
+}
+
+.titres {
+    @include propriete-titres;
+
+    span {
+        color: $couleurTerre;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+}
+
+
+#carouselExampleControls {
+    @include propriete-carousel;
+
+    .champs {
+        width: auto;
+        height: 809px;
+        ;
+    }
+}
+
+
+.test {
+    @include propriete-test;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pied__page {
+    @include propriete-pied-page;
+}
