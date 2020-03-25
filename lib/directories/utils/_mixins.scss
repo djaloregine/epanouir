@@ -1,13 +1,20 @@
+@mixin propriete-image-fond {
+    position: relative;
+    height: 100vh;
+    width: max-content;
+}
+
 @mixin propriete-menu {
     height: 40px;
-    background-color: $jauneAfricalia;
+    background-color: white;
+    position: absolute;
+    padding-top: 0px;
 }
 
 @mixin propriete-nav {
     color: $marronAfricalia;
     text-decoration: none;
     font-weight: 500;
-
 }
 
 @mixin propriete-logo {
@@ -18,17 +25,16 @@
     font-family: "Monserrat";
     font-size: 4rem;
     color: $marronAfricalia;
-    height: 60px;
     font-weight: 900;
     text-align: center;
-    margin-top: 60px;
     text-shadow: 1px 1px 2px $couleurTerre;
 }
 
+
 @mixin propriete-carousel {
 
-    height: 400px;
-    margin-top: 120px;
+    height: 200px;
+
 }
 
 

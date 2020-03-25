@@ -6,8 +6,20 @@
     @include propriete-nav;
 }
 
+img.imgFond {
+    @include propriete-image-fond;
+}
+
+#carouselExampleControls {
+    @include propriete-carousel;
+
+
+
+}
+
 .titres {
     @include propriete-titres;
+
 
     span {
         color: $couleurTerre;
@@ -15,17 +27,6 @@
 
     h2 {
         margin-top: 20px;
-    }
-}
-
-
-#carouselExampleControls {
-    @include propriete-carousel;
-
-    .champs {
-        width: auto;
-        height: 809px;
-        ;
     }
 }
 

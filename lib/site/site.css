@@ -1,13 +1,15 @@
 /* COULEURS */
 /* TYPOGRAPHIE */
-.container {
+body {
   font-family: "Source Sans Pro", "Montserrat", sans-serif;
   height: max-content;
 }
 
 .menu {
   height: 40px;
-  background-color: #faca1a;
+  background-color: white;
+  position: absolute;
+  padding-top: 0px;
 }
 
 .nav {
@@ -16,14 +18,22 @@
   font-weight: 500;
 }
 
+img.imgFond {
+  position: relative;
+  height: 100vh;
+  width: max-content;
+}
+
+#carouselExampleControls {
+  height: 200px;
+}
+
 .titres {
   font-family: "Monserrat";
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #89532f;
-  height: 60px;
   font-weight: 900;
   text-align: center;
-  margin-top: 60px;
   text-shadow: 1px 1px 2px #df7d40;
 }
 .titres span {
@@ -31,15 +41,6 @@
 }
 .titres h2 {
   margin-top: 20px;
-}
-
-#carouselExampleControls {
-  height: 400px;
-  margin-top: 120px;
-}
-#carouselExampleControls .champs {
-  width: auto;
-  height: 809px;
 }
 
 .test {
