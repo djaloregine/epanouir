@@ -1,14 +1,17 @@
 @mixin propriete-image-fond {
+    background-image: url(../../img/palmier.jpg);
     position: relative;
+    background-size: cover;
     height: 100vh;
     width: max-content;
+
 }
 
 @mixin propriete-menu {
     height: 40px;
     background-color: white;
     position: absolute;
-    padding-top: 0px;
+
 }
 
 @mixin propriete-nav {
@@ -22,48 +25,33 @@
 }
 
 @mixin propriete-titres {
+    position: absolute;
     font-family: "Monserrat";
-    font-size: 4rem;
-    color: $marronAfricalia;
+    font-size: 4.5rem;
+    color: white;
     font-weight: 900;
     text-align: center;
-    text-shadow: 1px 1px 2px $couleurTerre;
+    text-shadow: 1px 1px 2px black;
 }
 
 
 @mixin propriete-carousel {
-
-    height: 200px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-top: -35%;
+    display: flex;
+    justify-content: center;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@mixin propriete-test {
-    background-color: $vertAfricalia;
-    background-image: url(../img/huile2.jpeg);
-    background-size: cover;
-}
-
-
-
 
 
 
 
 
 @mixin propriete-pied-page {
+    position: absolute;
     height: 40px;
-    background-color: $jauneAfricalia;
-    margin-bottom: 2px;
-    margin-top: 600px;
+    background-color: white;
+
 }

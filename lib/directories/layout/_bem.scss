@@ -1,4 +1,8 @@
-.menu {
+img.imgFond {
+    @include propriete-image-fond;
+}
+
+#menu {
     @include propriete-menu;
 }
 
@@ -6,14 +10,9 @@
     @include propriete-nav;
 }
 
-img.imgFond {
-    @include propriete-image-fond;
-}
 
 #carouselExampleControls {
     @include propriete-carousel;
-
-
 
 }
 
@@ -22,20 +21,13 @@ img.imgFond {
 
 
     span {
-        color: $couleurTerre;
+        color: $jauneAfricalia;
     }
 
     h2 {
         margin-top: 20px;
     }
 }
-
-
-.test {
-    @include propriete-test;
-}
-
-
 
 
 
