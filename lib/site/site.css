@@ -1,22 +1,18 @@
 /* COULEURS */
 /* TYPOGRAPHIE */
 body {
+  background-image: url(../../img/palmier.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "Source Sans Pro", "Montserrat", sans-serif;
   height: max-content;
 }
 
-img.imgFond {
-  background-image: url(../../img/palmier.jpg);
-  position: relative;
-  background-size: cover;
-  height: 100vh;
-  width: max-content;
-}
-
-#menu {
+.col-8.align-self-start {
   height: 40px;
   background-color: white;
-  position: absolute;
+  margin-left: 480px;
 }
 
 .nav {
@@ -27,21 +23,28 @@ img.imgFond {
 
 #carouselExampleControls {
   position: absolute;
-  height: 300px;
-  width: 300px;
-  margin-top: -35%;
+  height: 310px;
+  width: 310px;
   display: flex;
   justify-content: center;
 }
 
+.d-block {
+  height: 310px;
+  width: 310px;
+}
+
 .titres {
-  position: absolute;
+  margin-top: 250px;
+  position: relative;
   font-family: "Monserrat";
   font-size: 4.5rem;
-  color: white;
   font-weight: 900;
-  text-align: center;
   text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+.titres .col-6.align-self-center {
+  background-color: white;
 }
 .titres span {
   color: #faca1a;
@@ -50,10 +53,11 @@ img.imgFond {
   margin-top: 20px;
 }
 
-.pied__page {
+.col-8.piedDePage {
   position: absolute;
-  height: 40px;
   background-color: white;
+  height: 40px;
+  margin-top: 12%;
 }
 
 /*# sourceMappingURL=site.css.map */

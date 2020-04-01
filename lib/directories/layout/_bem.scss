@@ -1,8 +1,10 @@
-img.imgFond {
+body {
     @include propriete-image-fond;
+    font-family: 'Source Sans Pro', 'Montserrat', sans-serif;
+    height: max-content;
 }
 
-#menu {
+.col-8.align-self-start {
     @include propriete-menu;
 }
 
@@ -16,8 +18,17 @@ img.imgFond {
 
 }
 
+.d-block {
+    @include propriete-images-carousel;
+}
+
 .titres {
     @include propriete-titres;
+
+    .col-6.align-self-center {
+        background-color: white;
+    }
+
 
 
     span {
@@ -31,14 +42,6 @@ img.imgFond {
 
 
 
-
-
-
-
-
-
-
-
-.pied__page {
+.col-8.piedDePage {
     @include propriete-pied-page;
 }
